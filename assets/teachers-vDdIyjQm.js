@@ -14,7 +14,7 @@ import{L as w}from"./index-BcX2LtBz.js";import{r as v,a as k,e as a,s as g,f as 
     <div class="lesson-head"><div><div class="k">Урок ${i} · страницы ${n.folios[0]}–${n.folios[1]}</div><h2 id="lesson-${i}-h">${a(t.title)}</h2></div>
       <a class="btn noprint" href="index.html#spread-${i}" aria-label="Открыть урок ${i}, ${a(t.title)}, в книге">Открыть в книге <span aria-hidden="true">→</span></a></div>
     <div class="eqline"><span class="eq" aria-label="${a(n.equation.words)}">${p(n.equation.symbols)}</span><span class="words">${a(n.equation.words)}</span></div>
-    <dl class="inbook"><dt>Предскажите</dt><dd>${a(n.predict.question)}</dd><dt>Испытание</dt><dd>${a(n.challenge.text)}</dd><dt>Ключевые слова</dt><dd>${n.keywords.map(r=>a(r.term)).join(" · ")}</dd></dl>
+    <dl class="inbook"><dt>Подумайте</dt><dd>${a(n.predict.question)}</dd><dt>Испытание</dt><dd>${a(n.challenge.text)}</dd><dt>Ключевые слова</dt><dd>${n.keywords.map(r=>a(r.term)).join(" · ")}</dd></dl>
     <div class="cols">
       <div><h3>Цели обучения</h3><ol>${t.objectives.map(r=>`<li>${a(r)}</li>`).join("")}</ol></div>
       <div><h3>Что упрощает модель</h3><ul>${t.simplified.map(r=>`<li>${a(r)}</li>`).join("")}</ul></div>
